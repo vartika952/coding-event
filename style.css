@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova:ital,wght@0,700;1,400&family=Great+Vibes&family=Poppins:ital,wght@0,400;1,400;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova:ital,wght@0,700;1,400&family=Great+Vibes&family=Lato:ital,wght@0,400;0,900;1,400;1,700;1,900&family=Montaga&family=Poppins:ital,wght@0,400;1,400;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+*{
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Bona Nova', serif;
+    font-family: 'Poppins', sans-serif;
+    margin:0; padding: 0;
+    box-sizing: border-box;
+    outline: none;border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+body{
+    overflow-x: hidden;
+}
+.page-1{
+    padding-top:75px ;
+    background-image: url(assets/background1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 130vh;
+}
+.page-1 .headings h1
+{
+    margin: 0px;
+    line-height: 150px;
+    font-size: 120px;
+    color: white;
+    padding-left: 100px;
+    width: 40%;
+}
+.page-1 .headings p
+{
+    padding-left: 85px ;
+    color: white;
+    font-size: 25px;
+    width: 60%;
+    line-height: 25px;
+
+}
+.page-3{
+    background-color: black;
+    background-position: fixed;
+    background-size: cover;
+    height: 100%;
+}
+.nav
+{
+    width: 100%;
+    height: 75px;
+    position: fixed;
+    background-color: black;
+}
+.nav .logo
+{
+    width: 40%;
+    display: inline-block;
+}
+.nav .logo img
+{
+    width: 13%;
+    height: 13%;
+    object-fit: cover;
+}
+
+.nav nav{
+  
+    display: inline-block;
+    
+    color: white;
+    
+    font-size: 25px;
+}
+.nav nav a
+{
+    margin-top: -25px;
+    text-align: center;
+    padding: 0 15px;
+}
+.p3{
+    display: flex;
+    flex-wrap: wrap;
+}
+.left-img{
+    width: 50% ;
+}
+.left-img h1{ 
+    color: antiquewhite;
+}
+.left-img p{
+    color: antiquewhite;
+}
+.right-img{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 800px;
+    height: 5%;
+}
+
+
+
+/* PAGE-2 */
+
+
+.page-2{
+    background-color: black;
+    height: 1000px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.pg-2-block-1{
+    padding-top: 100px;
+    margin-left: 32%;
+    font-size: 90px;
+    color: beige;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-weight: bold;
+}
+
+
+.pg-2-block-2{
+    display: flex;
+    align-items: center;
+    margin-top: 90px;
+    justify-content: center;
+}
+
+.pg-2-img:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+    
+}
+.pg-2-img-2:hover{
+    transform: scale(1.1);
+}
+.pg-2-txt-1{
+    margin-top: 30px;
+    font-size: 30px;
+    color: beige;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    width: 410px;
+}
